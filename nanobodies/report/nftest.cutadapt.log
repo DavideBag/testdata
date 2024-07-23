@@ -1,0 +1,331 @@
+This is cutadapt 4.8 with Python 3.12.4
+Command line parameters: -Z --cores 2 -a file:adapters.fa -A file:adapters.fa -g file:adapters.fa -G file:adapters.fa -o nftest_1.trim.fastq.gz -p nftest_2.trim.fastq.gz test01_raw_R1.fastq.gz test01_raw_R2.fastq.gz
+Processing paired-end reads on 2 cores ...
+Finished in 0.484 s (48.421 µs/read; 1.24 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             10,000
+  Read 1 with adapter:                   9,931 (99.3%)
+  Read 2 with adapter:                   1,209 (12.1%)
+Pairs written (passing filters):        10,000 (100.0%)
+
+Total basepairs processed:     6,020,000 bp
+  Read 1:     3,010,000 bp
+  Read 2:     3,010,000 bp
+Total written (filtered):      5,971,761 bp (99.2%)
+  Read 1:     2,972,933 bp
+  Read 2:     2,998,828 bp
+
+=== First read: Adapter PrefixNX/1 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 3'; Length: 19; Trimmed: 3 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 66.7%
+  G: 0.0%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	2	156.2	0	2
+4	1	39.1	0	1
+
+
+=== First read: Adapter PrefixNX/2 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 3'; Length: 19; Trimmed: 0 times
+
+=== First read: Adapter Trans1 ===
+
+Sequence: TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG; Type: regular 3'; Length: 33; Trimmed: 65 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Bases preceding removed adapters:
+  A: 4.6%
+  C: 0.0%
+  G: 4.6%
+  T: 90.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'T' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	14	156.2	0	14
+4	51	39.1	0	51
+
+
+=== First read: Adapter Trans1_rc ===
+
+Sequence: CTGTCTCTTATACACATCTGACGCTGCCGACGA; Type: regular 3'; Length: 33; Trimmed: 272 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Bases preceding removed adapters:
+  A: 71.3%
+  C: 4.8%
+  G: 1.5%
+  T: 22.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	149	156.2	0	149
+4	117	39.1	0	117
+5	5	9.8	0	5
+11	1	0.0	1	0 1
+
+
+=== First read: Adapter Trans2 ===
+
+Sequence: GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG; Type: regular 3'; Length: 34; Trimmed: 37 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 43.2%
+  G: 8.1%
+  T: 48.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	10	156.2	0	10
+4	27	39.1	0	27
+
+
+=== First read: Adapter Trans2_rc ===
+
+Sequence: CTGTCTCTTATACACATCTCCGAGCCCACGAGAC; Type: regular 3'; Length: 34; Trimmed: 27 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'A' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+219	1	0.0	3	0 1
+222	1	0.0	3	1
+268	25	0.0	3	19 3 1 2
+
+
+=== First read: Adapter PrefixNX/1 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 5'; Length: 19; Trimmed: 9527 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	9527	156.2	0	9527
+
+
+=== First read: Adapter PrefixNX/2 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 5'; Length: 19; Trimmed: 0 times
+
+=== First read: Adapter Trans1 ===
+
+Sequence: TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG; Type: regular 5'; Length: 33; Trimmed: 0 times
+
+=== First read: Adapter Trans1_rc ===
+
+Sequence: CTGTCTCTTATACACATCTGACGCTGCCGACGA; Type: regular 5'; Length: 33; Trimmed: 0 times
+
+=== First read: Adapter Trans2 ===
+
+Sequence: GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG; Type: regular 5'; Length: 34; Trimmed: 0 times
+
+=== First read: Adapter Trans2_rc ===
+
+Sequence: CTGTCTCTTATACACATCTCCGAGCCCACGAGAC; Type: regular 5'; Length: 34; Trimmed: 0 times
+
+=== Second read: Adapter PrefixNX/1 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 3'; Length: 19; Trimmed: 60 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Bases preceding removed adapters:
+  A: 13.3%
+  C: 38.3%
+  G: 41.7%
+  T: 6.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	43	156.2	0	43
+4	8	39.1	0	8
+5	9	9.8	0	9
+
+
+=== Second read: Adapter PrefixNX/2 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 3'; Length: 19; Trimmed: 0 times
+
+=== Second read: Adapter Trans1 ===
+
+Sequence: TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG; Type: regular 3'; Length: 33; Trimmed: 566 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Bases preceding removed adapters:
+  A: 63.3%
+  C: 24.4%
+  G: 10.8%
+  T: 1.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	563	156.2	0	563
+5	1	9.8	0	1
+6	2	2.4	0	2
+
+
+=== Second read: Adapter Trans1_rc ===
+
+Sequence: CTGTCTCTTATACACATCTGACGCTGCCGACGA; Type: regular 3'; Length: 33; Trimmed: 313 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Bases preceding removed adapters:
+  A: 31.3%
+  C: 3.2%
+  G: 62.3%
+  T: 3.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	281	156.2	0	281
+4	3	39.1	0	3
+5	2	9.8	0	2
+219	1	0.0	3	0 0 0 1
+222	1	0.0	3	1
+268	25	0.0	3	17 6 1 1
+
+
+=== Second read: Adapter Trans2 ===
+
+Sequence: GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG; Type: regular 3'; Length: 34; Trimmed: 263 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Bases preceding removed adapters:
+  A: 81.7%
+  C: 9.9%
+  G: 3.8%
+  T: 4.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'A' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	39	156.2	0	39
+4	10	39.1	0	10
+5	213	9.8	0	213
+6	1	2.4	0	1
+
+
+=== Second read: Adapter Trans2_rc ===
+
+Sequence: CTGTCTCTTATACACATCTCCGAGCCCACGAGAC; Type: regular 3'; Length: 34; Trimmed: 0 times
+
+=== Second read: Adapter PrefixNX/1 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 5'; Length: 19; Trimmed: 2 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1	156.2	0	1
+4	1	39.1	0	1
+
+
+=== Second read: Adapter PrefixNX/2 ===
+
+Sequence: AGATGTGTATAAGAGACAG; Type: regular 5'; Length: 19; Trimmed: 0 times
+
+=== Second read: Adapter Trans1 ===
+
+Sequence: TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG; Type: regular 5'; Length: 33; Trimmed: 0 times
+
+=== Second read: Adapter Trans1_rc ===
+
+Sequence: CTGTCTCTTATACACATCTGACGCTGCCGACGA; Type: regular 5'; Length: 33; Trimmed: 3 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	3	156.2	0	3
+
+
+=== Second read: Adapter Trans2 ===
+
+Sequence: GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG; Type: regular 5'; Length: 34; Trimmed: 0 times
+
+=== Second read: Adapter Trans2_rc ===
+
+Sequence: CTGTCTCTTATACACATCTCCGAGCCCACGAGAC; Type: regular 5'; Length: 34; Trimmed: 2 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-34 bp: 3
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	9.8	0	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
