@@ -1,5 +1,5 @@
 sample,fastq_1,fastq_2,individual,boost,immunisation
-sample_01,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/025/SRR11974625/SRR11974625_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/025/SRR11974625/SRR11974625_2.fastq.gz,1,0,unenriched
-sample_02,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/023/SRR11974623/SRR11974623_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/023/SRR11974623/SRR11974623_2.fastq.gz,2,1,RBD_enriched
-sample_03,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/022/SRR11974622/SRR11974622_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/022/SRR11974622/SRR11974622_2.fastq.gz,3,1,RBD_enriched
-sample_04,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/024/SRR11974624/SRR11974624_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/024/SRR11974624/SRR11974624_2.fastq.gz,4,0,unenriched
+sample_01,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/025/SRR11974625/SRR11974625_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/025/SRR11974625/SRR11974625_2.fastq.gz,ind1,0,unenriched
+sample_02,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/023/SRR11974623/SRR11974623_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/023/SRR11974623/SRR11974623_2.fastq.gz,ind2,1,RBD_enriched
+sample_03,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/022/SRR11974622/SRR11974622_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/022/SRR11974622/SRR11974622_2.fastq.gz,ind3,1,RBD_enriched
+sample_04,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/024/SRR11974624/SRR11974624_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/024/SRR11974624/SRR11974624_2.fastq.gz,ind4,0,unenriched
