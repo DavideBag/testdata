@@ -1,3 +1,3 @@
 sample,fastq_1,fastq_2
-SRR11974622,gs://compgen-dbb-immuno/test_full_nanorepertoire/SRR11974622_1.fastq.gz,
-SRR11974623,gs://compgen-dbb-immuno/test_full_nanorepertoire/SRR11974623_2.fastq.gz,
+llama_RBD_after,gs://compgen-dbb-immuno/test_full_nanorepertoire/llama_data_for_test/SRR13768392_GSM5101272_llama_RBD_after_Lama_glama_OTHER_1.fastq.gz,gs://compgen-dbb-immuno/test_full_nanorepertoire/llama_data_for_test/SRR13768392_GSM5101272_llama_RBD_after_Lama_glama_OTHER_2.fastq.gz
+llama_RBD_before,gs://compgen-dbb-immuno/test_full_nanorepertoire/llama_data_for_test/SRR13768393_GSM5101273_llama_RBD_before_Lama_glama_OTHER_1.fastq.gz,gs://compgen-dbb-immuno/test_full_nanorepertoire/llama_data_for_test/SRR13768393_GSM5101273_llama_RBD_before_Lama_glama_OTHER_2.fastq.gz
