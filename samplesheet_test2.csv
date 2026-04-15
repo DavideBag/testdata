@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2
+SRR11974622,gs://il-tuo-bucket/data/SRR11974622_1.fastq.gz,gs://il-tuo-bucket/data/SRR11974622_2.fastq.gz
